@@ -1,0 +1,31 @@
+.flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 2%;
+}
+.column input{
+    margin-top: 2.5%;
+    width: 80%;
+    height: 15%;
+    padding: 1rem;
+    border: none;
+    flex-direction: rtl;   
+    background-color: azure;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 100%;
+}
+button{
+    border-style: none;
+    padding: 2%;
+    border-radius: 2rem;
+    background-color: blue;
+    color: white;
+    width: 20%;
+    margin-top: 2%;
+
+}
